@@ -5,8 +5,8 @@
   |============================
 */
 @import url('./reset.css');
-/* @import url('./vite-promo.css'); */
-/* @import url('./header.css'); */
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +22,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+section{
+  margin: 20px;
 }

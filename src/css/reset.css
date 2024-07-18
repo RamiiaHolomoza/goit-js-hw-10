@@ -1,4 +1,10 @@
 /* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -33,3 +39,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+textarea:hover,
+textarea:focus,
+textarea:active {
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
