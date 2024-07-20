@@ -8,9 +8,7 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const delay = parseInt(event.target.delay.value);
-    console.log(delay);
     const state = event.target.state.value;
-    console.log(state)
     
 
 const promise = new Promise((resolve, reject) => {
@@ -37,3 +35,7 @@ promise
         });
     })
 })
+
+// resetButton.addEventListener('click', () => {
+//     form.reset(); 
+// });

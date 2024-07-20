@@ -54,10 +54,10 @@ fieldset:focus{
 fieldset legend {
     font-size: 1em;
     position: absolute;/* Додано для правильного позиціювання легенди */
-    top: -12px;    /* Налаштуйте цей параметр для вирівнювання */
-    left: 16px;    /* Налаштуйте цей параметр для вирівнювання */
-    background: #fff;    /* Додано для фону легенди */
-    padding: 0 4px;    /* Додано для відступу фону */
+    top: -12px;    
+    left: 16px;    
+    background: #fff;    
+    padding: 0 4px;    
 }
 
 fieldset label {
