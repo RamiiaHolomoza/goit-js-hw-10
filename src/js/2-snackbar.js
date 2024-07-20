@@ -34,8 +34,5 @@ promise
             message: `❌ Rejected promise in ${delay}ms`
         });
     })
+    document.querySelector('input[name="delay"]').value = '';
 })
-
-// resetButton.addEventListener('click', () => {
-//     form.reset(); 
-// });
